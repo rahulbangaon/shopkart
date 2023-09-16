@@ -1,0 +1,151 @@
+.hero-section{
+    position: relative;
+}
+
+
+.model{
+    position: absolute;
+}
+
+.star3{
+    width: 85%;
+    position: absolute;
+    left: 40%;
+    top: 0rem;
+}
+
+.hero-model{
+    position: relative;
+    top: 0.5rem;
+    left: 15%;
+    z-index: 9;
+}
+
+.title-container{
+    position: absolute;
+    z-index: 99;
+    top: 21.5rem;
+    left: 4%;
+    line-height: 3.2rem;
+}
+
+.title-1{
+    position: relative;
+}
+
+
+.title-2{
+    color: transparent;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: white;
+    position: relative;
+    left: 32%;
+}
+
+.title-3{
+    position: relative;
+    left: 7%;
+}
+
+
+.opacity-box{
+    position: absolute;
+    width: 100%;
+    height: 22rem;
+    background: var(--primary-light);
+    top: 14rem;
+    z-index: 10;
+    opacity: 0.2;
+}
+
+.yellow-box{
+    position: absolute;
+        width: 100%;
+        height: 22rem;
+        background: var(--primary-light);
+        top: 14rem;
+        z-index: 1;
+}
+
+.line-star{
+    position: absolute;
+    width: 45%;
+    top: 34rem;
+    border: 1px solid white;
+    z-index: 99;
+}
+
+.star4{
+    position: absolute;
+    top: -2.55rem;
+    right: 0;
+}
+
+
+.button-container{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    padding: 0.2rem;
+    gap: 0.2em;
+    border: 1px solid white;
+    cursor: pointer;
+    top: 37rem;
+    left: 1rem;
+}
+
+.see-more{
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+}
+
+
+.arrow-icon{
+    display: block;
+    cursor: pointer;
+}
+
+
+@media (min-width: 45rem){
+    .model{
+        left: 60%;
+    }
+
+    .star3{
+        z-index: 2;
+    }
+
+    .title-container{
+        line-height: 6.4rem;
+        top: 10rem;
+        left: 11%;
+    }
+
+    .title-2{
+        left: 50%;
+    }
+    .title-3{
+        left: 12%;
+    }
+
+    .opacity-box{
+        left: 33.5%;
+    }
+
+    .yellow-box{
+        left: 33.5%;
+    }
+
+    .line-star{
+        width: 72%;
+    }
+
+    .button-container{
+        left: 4rem;
+    }
+
+}

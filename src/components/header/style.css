@@ -1,0 +1,12 @@
+header{
+    height: 49.5rem;
+    background: var(--background);
+}
+
+@media (min-width: 45rem){
+    header{
+        height: 53rem;
+    }
+
+    
+}
