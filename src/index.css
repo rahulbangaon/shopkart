@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&family=Syne:wght@400;600;800&family=Work+Sans:wght@300;400;600;700&display=swap');
+
+
+:root{
+    /* colors */
+    --primary-light: #F07E15;
+    --primary-dark: #000000;
+    --secondary-dark: #8A8A8A;
+    --secondary-light: #D6D6D6;
+    --light: white;
+    --background: url(../src/assets/backgroundEffect.png),
+        rgb(11, 11, 11);
+
+    /* font families */
+    --ff-syne: 'Syne', sans-serif;
+    --ff-poppins: 'Poppins', sans-serif;
+    --ff-work-sans: 'Work Sans', sans-serif;
+
+    /* font-sizes */
+    --fs-100: 0.625rem;
+    --fs-200: 0.75rem;
+    --fs-300: 0.875rem;
+    --fs-400: 1.125rem;
+    --fs-500: 1.625rem;
+    --fs-600: 2.5rem;
+    --fs-700: 3.4375rem;
+
+}
+
+@media (min-width: 45rem){
+    :root{
+        /* font-sizes */
+            --fs-100: 0.75rem;
+            --fs-200: 0.875rem;
+            --fs-300: 1.125rem;
+            --fs-400: 1.75rem;
+            --fs-500: 2.5rem;
+            --fs-600: 5.625rem;
+            --fs-700: 8.4375rem;
+    }
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+
+/* ----- utility classes --------- */
+
+
+/* font families */
+
+.ff-syne{font-family: var(--ff-syne);}
+.ff-poppins{font-family: var(--ff-poppins);}
+.ff-work-sans{font-family: var(--ff-work-sans);}
+
+
+/* font sizes */
+
+.fs-700 {
+    font-size: var(--fs-700);
+}
+
+.fs-600 {
+    font-size: var(--fs-600);
+}
+
+.fs-500 {
+    font-size: var(--fs-500);
+}
+
+.fs-400 {
+    font-size: var(--fs-400);
+}
+
+.fs-300 {
+    font-size: var(--fs-300);
+}
+
+.fs-200 {
+    font-size: var(--fs-200);
+}
+.fs-100 {
+    font-size: var(--fs-100);
+}
+
+
+body{
+    background-color: #F07E15;
+    color: white;
+    overflow-x: hidden;
+}

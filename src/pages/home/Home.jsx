@@ -1,8 +1,11 @@
+import Header from '../../components/header/Header';
 import './style.css';
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <>
+    <Header />
+    </>
   )
 }
 

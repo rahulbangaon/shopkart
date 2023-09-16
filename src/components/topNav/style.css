@@ -1,0 +1,44 @@
+.top-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-height: 42px;
+    background:  #1A1A1A;
+    color: var(--secondary-dark);
+    padding: 1.3rem;
+}
+
+.top-nav .nav-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    cursor: pointer;
+
+}
+.left-top-nav .nav-items{
+    gap: 0.4rem;
+}
+
+.line{
+    border: 1px solid var(--secondary-dark);
+    height: 1.2rem;
+}
+
+.top-nav .nav-item:hover{
+    color: var(--secondary-light);
+}
+
+@media (min-Width: 45rem){
+    .top-nav{
+        padding: 2rem 4rem;
+    }
+
+    .top-nav .nav-items{
+        gap: 1.2rem;
+    }
+
+        .left-top-nav .nav-items {
+            gap: 0.8rem;
+        }
+}
