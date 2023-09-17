@@ -1,5 +1,6 @@
-.products{
+.product{
     color: black;
+    font-variant-numeric: lining-nums;
 }
 
 .image-container{
