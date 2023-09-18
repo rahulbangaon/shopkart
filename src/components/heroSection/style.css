@@ -4,7 +4,8 @@
 
 
 .model{
-    position: absolute;
+    position: relative;
+    overflow: hidden;
 }
 
 .star3{
@@ -113,6 +114,8 @@
 @media (min-width: 45rem){
     .model{
         left: 60%;
+        overflow: visible;
+        position: absolute;
     }
 
     .star3{

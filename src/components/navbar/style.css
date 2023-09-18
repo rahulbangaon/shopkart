@@ -24,7 +24,7 @@
     flex-direction: column;
     align-items: center;
     gap: 3.5rem;
-    position: absolute;
+    position: fixed;
     top: 100;
     left: 0;
     font-weight: 700;
@@ -41,7 +41,7 @@
 }
 
 .hide-nav{
-    transform: translateX(300%);
+    transform: translateX(100%);
     transition: all ease-in-out 750ms;
 }
 
