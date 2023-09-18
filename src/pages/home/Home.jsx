@@ -12,6 +12,7 @@ import "react-multi-carousel/lib/styles.css";
 // long arrows for carousel
 import leftLongArrow from "../../assets/leftLongArrow.svg";
 import rightLongArrow from "../../assets/rightLongArrow.svg";
+import Footer from "../../components/footer/Footer";
 
 const Home = () => {
   const [productCategories, setProductCategories] = useState([]);
@@ -87,6 +88,7 @@ const Home = () => {
   return (
     <>
       <Header />
+      {/* ---- product section ---- */}
       <section className="product-section">
         {/* title */}
         <h1 className="products-title fs-600 ff-syne">
@@ -128,6 +130,7 @@ const Home = () => {
           </Carousel>
         </div>
       </section>
+      <Footer/>
     </>
   );
 };

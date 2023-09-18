@@ -1,0 +1,24 @@
+.input-field{
+    background: none;
+    border: none;
+    outline: none;
+    color: inherit;
+    border-bottom: 2px solid var(--secondary-light);
+    padding: 0.5rem 1rem;
+    font-size: 1.625rem;
+}
+
+.form-error{
+    color: red;
+    font-size: var(--fs-200);
+    font-family: var(--ff-work-sans);
+}
+
+@media (min-width:45rem) {
+
+    .input-field{
+        font-size: var(--fs-300);
+        width: 80%;
+    }
+    
+}
