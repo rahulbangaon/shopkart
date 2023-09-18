@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 import Star3 from "../../assets/Star3.svg";
 import Star4 from "../../assets/Star4.svg";
-import HeroModel from "../../assets/heroModel.svg";
+import HeroModel from "../../assets/hero.png";
 import {FiArrowUpRight} from 'react-icons/fi';
 
 const HeroSection = () => {
