@@ -92,10 +92,9 @@ const Home = () => {
       <section className="product-section">
         {/* title */}
         <h1 className="products-title fs-600 ff-syne">
-          New Products
+          New products
           <img src={Star2} className="star2" />
         </h1>
-        <div className="products-container">
           {/* product categories */}
           <ul className="product-categories">
             {productCategories.map((category, index) => {
@@ -117,6 +116,7 @@ const Home = () => {
           </ul>
           {/* products */}
           <Carousel
+          className="carousel"
             partialVisbile={true}
             responsive={responsive}
             infinite={true}
@@ -128,7 +128,6 @@ const Home = () => {
               return <Product key={product?.id} {...product} />;
             })}
           </Carousel>
-        </div>
       </section>
       <Footer/>
     </>

@@ -5,7 +5,8 @@
     color: inherit;
     border-bottom: 2px solid var(--secondary-light);
     padding: 0.5rem 1rem;
-    font-size: 1.625rem;
+    font-size: 1.125rem;
+    width: 100%;
 }
 
 .form-error{
@@ -17,8 +18,8 @@
 @media (min-width:45rem) {
 
     .input-field{
-        font-size: var(--fs-300);
-        width: 80%;
+        font-size: 1.625rem;
+        width: 70%;
     }
     
 }
